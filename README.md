@@ -1,6 +1,7 @@
 # Response Coding
 It calculates response ratio of each category for every Target Label. One column per target class is returned.
-
+Only one Feature column is received as Input, i.e. only one column can be vectorized by a single instance of 
+th vectorizer. 
 ## Scenario: 
    > Binary classification. Positive class is labelled `1` and Negative class is labelled `0`. 
    > Transformer will output one column for each target class.
@@ -29,6 +30,12 @@ It calculates response ratio of each category for every Target Label. One column
     # For testing data
     # Get for class = 1 (Accepted)
     categories_test = vectorizer.transform(X_test.feature_column)[1]
+
+    # Get Class Labels
+    vectorizer.labels
+
+    # Get Categories
+    vectorizer.categories
 ```
 ### Installation
 
