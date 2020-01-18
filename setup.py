@@ -4,7 +4,7 @@ from distutils.core import setup
 setup(
   name = 'response_encoding',         # How you named your package folder (MyLib)
   packages = ['response_encoding'],   # Chose the same as "name"
-  version = '0.1',      # Start with a small number and increase it with every change you make
+  version = '0.2',      # Start with a small number and increase it with every change you make
   license='GNU GENERAL PUBLIC LICENSE',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'It calculates response ratio of each category for every Target Label. One column per target class is returned.',   # Give a short description about your library
   author = 'Vivek Purkayastha',                   # Type in your name
