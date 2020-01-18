@@ -10,7 +10,7 @@ setup(
   author = 'Vivek Purkayastha',                   # Type in your name
   author_email = 'vivpur88@gmail.com',      # Type in your E-Mail
   url = 'https://https://github.com/gunnerVivek/response_encoding',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/gunnerVivek/response_encoding/archive/v0.1.tar.gz',
+  download_url = 'https://github.com/gunnerVivek/response_encoding/archive/v0.2.tar.gz',
   keywords = ['Data Preprocessing', 'Response Coding', 'Data Science'],   # Keywords that define your package best
   install_requires=['numpy', 'pandas'], # dependencies,
   classifiers=[
