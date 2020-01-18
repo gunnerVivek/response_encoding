@@ -1,3 +1,6 @@
+import numpy as np
+import pandas as pd
+
 class ResponseCoding:
     '''
         Takes One Single column as Input and
@@ -120,8 +123,6 @@ class ResponseCoding:
         self.labels = sorted(set(y))
 
         df = pd.DataFrame(data=np.column_stack([X, y]), columns=['X','y'])
-        
-        #print(df.columns, df.shape)
         
         # dictionary to hold count per category
         denominator = dict()
